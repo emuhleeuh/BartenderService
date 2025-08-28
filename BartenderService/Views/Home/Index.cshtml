@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Please select one of the following options: </p>
+
+    <a asp-controller="Orders" asp-action="Index" class="btn btn-success btn-lg">View Order Queue</a>
+    <a asp-controller="Orders" asp-action="Create" class="btn btn-success btn-lg">Place Order</a>
+
+
+</div>
